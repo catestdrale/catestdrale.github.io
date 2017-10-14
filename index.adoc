@@ -1,0 +1,136 @@
+
+= caTesTdrale
+:toc: left
+
+====
+Un atelier de sensibilisation à l'intérêt des Test Unitaires Automatisés
+====
+
+image::creativeCommons.png[]
+
+
+
+caTesTdrale de Sébastien Fauvel, Frantz Degrigny, Philippe Aubree +
+est mis à disposition selon les termes de la https://creativecommons.org/licenses/by-sa/4.0/[licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International].
+
+== Pitch
+
+- Venez participer à un atelier agile et ludique pour faire des tests unitaires sans toucher à du code!
+
+- Vous êtes développeur: venez sans votre pc et repartez avec une pratique vitale pour vous!
+
+- Vous êtes PO/MOA: venez comprendre pourquoi vos devs vous réclament du temps pour leurs tests
+
+- Vous êtes manager: Venez comprendre pourquoi il faut aider vos équipe à faires des TUA. Pour eux, pour vous, pour l’entreprise!
+
+- Vous êtes curieux: venez prendre quelques bonnes idées et arguments
+
+== Objectif
+
+L'atelier vise à sensibiliser sur l'intérêt d'investir dans la mise en place de tests unitaires automatisés. 
+
+Il peut-être utilisé, de manière plus général, pour montrer l'importance d'investir dans de la qualité.
+
+== Public
+
+Tout public (Devs, MOA/PO, Managers…). Pas de code on vous dit!
+
+== Préparation et déroulement
+
+Durée: 30 mn
+
+La durée peut-être variable en fonction de la manière de dérouler l’atelier et du temps consacré au debriefing.
+
+Pour l’animateur
+
+=== Salle
+
+Des tables pour construire les châteaux. 
+Il faut qu’elles soient stables et de préférence, pas en contact des tables d’une autre équipe.
+
+Prévoir 2 à 3 personnes par table.
+
+=== Préparation avant l’atelier
+
+Imprimer la page "Format" sans mise à l'échelle, sans toucher aux marges
+
+Autant que nécessaire (cf. "calculs")
+
+Poser jusqu'à 4 feuilles de harnais l’une sur l’autre avec un cutter et une règle, insciser les fentes internes, ne pas découper les bords externes des harnais (ce sera pour les participants)
+
+
+[NOTE]
+Il n’est pas nécessaire d’insciser à l’avance. 
+On peut réussir à faire les fentes en pliant et en coupant. 
+TODO: Faire un schéma pour expliquer comment faire.
+
+
+=== Matériel pour l’atelier
+
+- Harnais précoupés ou pas (cf. ci-dessus)
+
+- Paires de ciseaux
+
+- Cartes à jouer (cf nombre), si possible usagées
+
+Voici le nombre de cartes nécessaires en fonction de la hauteur du château. Hauteur du château de cartes = n
+
+|====
+
+| n | 2| 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+| Nb cartes | 7 | 15 | 26 | 40 | 57 | 77 | 100 | 126 | 155 | 187 | 222
+| Nb paquets de cartes (54) | 1 | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 3 | 4 | 5
+| Nb Harnais | 3 | 6 | 10 | 15 | 21 | 28 | 36 | 45 | 55 | 66 | 78
+| Nb feuilles de harnais | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 4 | 5 | 6
+|====
+
+Nb cartes = (3n²+n)/2
+
+Nb harnais=Somme[1:n](i)
+
+== Déroulement de l’atelier
+
+Faire préparer les harnais et les Tests unitaires (découper les feuilles de TU)
+
+< à préciser>
+
+Expliquer l’objectif de l’atelier: montrer l’intérêt des tests unitaires
+
+Explique ce que l’on va faire: un château de carte
+
+Montrer ce que l’on appelle un test et faire une démo de sa construction
+
+Définir les équipes souhaitant faire des tests et les autres "Variantes: On peut laisser les équipes faire avec/sans/un peu/pas tout suite.
+
+Possibilité de faire les deux: 3 itérations sans puis/altenativement 3 itérations avec"
+
+Distribuer le matériel et déclencher le chrono (1mn)
+
+A la fin de l’itération faire un rapide tour de l’avancement
+
+Répéter pendant 5 itérations
+
+Proposer de faire un refactoring
+
+- retourner les cartes faisant les plateaux (sans modification des tests).
+
+- enlever les "têtes" (modification légère des tests)
+
+- avoir des cartes plus ou moins large nécessitant de refaire les tests.
+
+== Debriefing
+
+Sans tests, on va (beaucoup) plus vite au début mais cela ne dure pas. On peut estimer à un facteur 3 l'écart entre les deux approches.
+
+L’absence de test donne un sentiment de challenge que l’on a moins avec les tests. On retrouve ce sentiement dans le développement avec l’impression d’avancer parce que l’on travaille dure. L’approche par les tests permet d’avancer plus simplement donnant l’impression de ne pas avancer vite.
+
+Si vous aviez à choisir pour construire un 4ème étage, préférer vous partir d’un château de 3 étages sans tests (partir d’un code sans tests) ou uniquement des tests coupés/pliés (les tests sans le code) ? Qu’est ce qui a le plus de valeur ?
+
+En cas de destruction du château (restrucuration), combien de temps cela prend il à le reconstuire avec/sans tests ?
+
+== Ressources
+
+=== Harnais
+
+Voir document
+
