@@ -33,11 +33,10 @@ L'atelier vise à sensibiliser sur l'intérêt d'investir dans la mise en place 
 
 Il peut-être utilisé, de manière plus général, pour montrer l'importance d'investir dans de la qualité.
 
-== Public
-
-Tout public (Devs, MOA/PO, Managers…). Pas de code on vous dit!
 
 == Préparation et déroulement
+
+Public: Tout public (Devs, MOA/PO, Managers…). Pas de code on vous dit!
 
 Durée: 30 mn
 
