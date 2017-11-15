@@ -164,7 +164,7 @@ Qu’est ce qui a le plus de valeur ?
 
 == Ressources
 
-* https://catestdrale.github.io/catesdrale.pdf[Version pdf des instructions]
+* https://catestdrale.github.io/catestdrale.pdf[Version pdf des instructions]
 
 * Harnais https://catestdrale.github.io/chateauCarte.pdf[PDF] ou https://catestdrale.github.io/chateauCarte.xlsx[XLSX]
 
