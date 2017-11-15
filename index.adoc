@@ -3,15 +3,17 @@
 :toc: left
 
 ====
-Un atelier de sensibilisation à l'intérêt des Test Unitaires Automatisés
+Atelier de sensibilisation et de réflexion sur l'apport des Test Unitaires Automatisés
 ====
 
-image::creativeCommons.png[]
 
-
-
-caTesTdrale de Sébastien Fauvel, Frantz Degrigny, Philippe Aubree +
-est mis à disposition selon les termes de la https://creativecommons.org/licenses/by-sa/4.0/[licence Creative Commons Attribution - Partage dans les Mêmes Conditions 4.0 International].
+[.licence,cols="2,10"]
+|====
+| image:creativeCommons.png[] | *caTesTdrale* de _Sébastien Fauvel_, _Frantz Degrigny_, _Philippe Aubree_ +
+est mis à disposition selon les termes de la +
+https://creativecommons.org/licenses/by-sa/4.0/[licence Creative Commons Attribution +
+Partage dans les Mêmes Conditions 4.0 International].
+|====
 
 == Pitch
 
@@ -39,98 +41,131 @@ Tout public (Devs, MOA/PO, Managers…). Pas de code on vous dit!
 
 Durée: 30 mn
 
-La durée peut-être variable en fonction de la manière de dérouler l’atelier et du temps consacré au debriefing.
+La durée peut variée en fonction de la manière de dérouler l’atelier et du temps consacré au debriefing.
 
 Pour l’animateur
 
 === Salle
 
 Des tables pour construire les châteaux. 
-Il faut qu’elles soient stables et de préférence, pas en contact des tables d’une autre équipe.
+Il faut qu’elles soient stables et de préférence, qu'elles ne soient pas en contact des tables d’une autre équipe.
 
 Prévoir 2 à 3 personnes par table.
 
 === Préparation avant l’atelier
 
-Imprimer la page "Format" sans mise à l'échelle, sans toucher aux marges
+Imprimer la page https://catestdrale.github.io/chateauCarte.pdf[ChateauCarte.pdf] sans mise à l'échelle et sans toucher aux marges.
+Vérifier que les "fentes" (traits en noir) fassent bien la largeur d'une carte.
 
-Autant que nécessaire (cf. "calculs")
+Faire autant de copies que nécessaire (cf. "<<ref-calcul>>)
 
-Poser jusqu'à 4 feuilles de harnais l’une sur l’autre avec un cutter et une règle, insciser les fentes internes, ne pas découper les bords externes des harnais (ce sera pour les participants)
+[NOTE] 
+Pour gagner du temps, on peut inciser les fentes avec un cutter au préalable.
 
 
-[NOTE]
-Il n’est pas nécessaire d’insciser à l’avance. 
-On peut réussir à faire les fentes en pliant et en coupant. 
-TODO: Faire un schéma pour expliquer comment faire.
+// TODO: Faire un schéma pour expliquer comment faire.
 
 
 === Matériel pour l’atelier
 
-- Harnais précoupés ou pas (cf. ci-dessus)
+- Harnais précoupés ou pas (https://catestdrale.github.io/chateauCarte.pdf[ChateauCarte.pdf])
 
-- Paires de ciseaux
+- Paires de ciseaux (une pour 2 groupes)
 
-- Cartes à jouer (cf nombre), si possible usagées
+- Cartes à jouer (cf. "<<ref-calcul>>), si possible usagées
 
-Voici le nombre de cartes nécessaires en fonction de la hauteur du château. Hauteur du château de cartes = n
+Le tableau ci dessous indique le nombre de cartes nécessaires en fonction de la hauteur du château.
+Les équipes devraient arriver à faire des châteaux de 5 à 6 étages.
 
+_h_ = Hauteur du château de cartes
+
+[[ref-calcul]]
+.Nombre de carte et de harnais nécessaire
+[cols="5,1,1,1,1,1,1,1,1,1,1,1",options="header"]
 |====
-
-| n | 2| 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+| _h_ | 2| 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
 | Nb cartes | 7 | 15 | 26 | 40 | 57 | 77 | 100 | 126 | 155 | 187 | 222
 | Nb paquets de cartes (54) | 1 | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 3 | 4 | 5
 | Nb Harnais | 3 | 6 | 10 | 15 | 21 | 28 | 36 | 45 | 55 | 66 | 78
 | Nb feuilles de harnais | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 4 | 5 | 6
 |====
 
-Nb cartes = (3n²+n)/2
+Nb cartes = (3 _h_²+_h_ )/2
 
-Nb harnais=Somme[1:n](i)
+Nb harnais=( _h_²+_h_ )/2
 
 == Déroulement de l’atelier
 
-Faire préparer les harnais et les Tests unitaires (découper les feuilles de TU)
+=== Discours d'introduction
 
-< à préciser>
+Le développement informatique est un assemblage de code écrit, d'assemblage de librairie et de communication avec d'autres application tout en utilisant diverses techologies. 
+La moindre erreur lors de la construction de cet ensemblage complexe et c'est le bug. 
+Les applications sont des immenses châteaux de cartes et c'est ce que l'on se propose de construire.
 
-Expliquer l’objectif de l’atelier: montrer l’intérêt des tests unitaires
+Pour cela, on va expérimenter deux approches.
+La première sera la construction classique d'un château de carte.
+La seconde propose de mettre en place des tests unitaires.
 
-Explique ce que l’on va faire: un château de carte
+L'objectif sera de former le plus haut château de carte.
+Un étage est comptabilisé s'il est complet.
 
-Montrer ce que l’on appelle un test et faire une démo de sa construction
+=== Mis en place
 
-Définir les équipes souhaitant faire des tests et les autres "Variantes: On peut laisser les équipes faire avec/sans/un peu/pas tout suite.
+Montrer ce que l’on appelle un test (un harnais) et faire une démo de sa mis en oeuvre.
 
-Possibilité de faire les deux: 3 itérations sans puis/altenativement 3 itérations avec"
+On peut opter pour deux formats différents:
 
-Distribuer le matériel et déclencher le chrono (1mn)
+. Séparer les équipes avec certains faisant des tests et d'autres pas. La séparation peut être selon le volontariat où e fonction des tables où ce sont placés les gens.
+. Dérouler l'exercice pour tout le monde sans test puis rejouer l'exercice avec les tests. 
+Il est intéressant de noter la hauteur obtenue à chaque itération pour pouvoir comparer les résultats entre les deux approches.
 
-A la fin de l’itération faire un rapide tour de l’avancement
 
-Répéter pendant 5 itérations
+Distribuer le matériel si ce n'est pas déjà fait et déclencher le chronomètre pour une itération d'1 minute.
 
-Proposer de faire un refactoring
+A la fin de l’itération, faire un rapide tour de l’avancement de chaque équipe. 
 
-- retourner les cartes faisant les plateaux (sans modification des tests).
+Faire au moins 5 itérations. Il est probable que les équipes sans tests jettent l'éponge avant cela.
 
-- enlever les "têtes" (modification légère des tests)
+On peut continuer "pour le fun" en proposant aux équipes sans test de commencer à les mettre en oeuvre ou on peut les faire rejoindre une équipe faisant des tests.
+La compétition continue alors entre les équipes.
 
-- avoir des cartes plus ou moins large nécessitant de refaire les tests.
+Pour appuyer la prise de consiscience des avantages des tests automatisés, on peut proposer de faire un refactoring sur notre château:
+
+. retourner les cartes formant les plateaux (aucune modification des tests nécessaire).
+
+. enlever les cartes représentant des "têtes" (légère modification des tests)
+
+. changer les cartes avec des formats plus ou moins large (nécessité de refaire les tests).
 
 == Debriefing
 
-Sans tests, on va (beaucoup) plus vite au début mais cela ne dure pas. On peut estimer à un facteur 3 l'écart entre les deux approches.
+A l'issue de l'atelier, il est bien de prendre le temps de faire un débriefing.
 
-L’absence de test donne un sentiment de challenge que l’on a moins avec les tests. On retrouve ce sentiement dans le développement avec l’impression d’avancer parce que l’on travaille dure. L’approche par les tests permet d’avancer plus simplement donnant l’impression de ne pas avancer vite.
+On peut commencer par demander la manière dont les personnes ont vécues l'atelier et faire le parallèle avec ce qu'ils vivent dans leur travail.
 
-Si vous aviez à choisir pour construire un 4ème étage, préférer vous partir d’un château de 3 étages sans tests (partir d’un code sans tests) ou uniquement des tests coupés/pliés (les tests sans le code) ? Qu’est ce qui a le plus de valeur ?
+L'idée générale qui se dégage est la notion d'investissement que représentent les tests. 
+Voici quelques éléments sur lesquels on peut discuter:
 
-En cas de destruction du château (restrucuration), combien de temps cela prend il à le reconstuire avec/sans tests ?
+- Sans tests, on va (beaucoup) plus vite au début mais cela ne dure pas. 
+On peut faire le lien avec la courbe décrite en extreme programming et qui cherche à avoir un coût des évolutions constant dans le temps là où il est généralement exponentiel.
+
+- Quel risque prend t-on sur l'avenir du code à développer sans test ?
+
+- L’absence de tests donne un sentiment de challenge. 
+Il est nécessaire d'être extrêment concentré pour mettre au point une solution.
+Avec les tests le travail est plus simple et plus rébarbatif.
+Cela peut donner l'impression d'avancer moins vite mais le progrès est constant.
+
+- Imaginons que l'on nous fournisse un château de cartes de 3 étages déjà fait et sur lequel on nous demande d'ajouter un étage. 
+Préféreriez vous partir d’un château de 3 étages sans tests (partir d’un code sans tests) ou uniquement des tests coupés/pliés (les tests sans le code) ? 
+Qu’est ce qui a le plus de valeur ?
+
+- En cas de destruction du château (restructuration), combien de temps cela prend il à le reconstruire avec/sans tests ?
+
 
 == Ressources
 
-=== Harnais
+* https://catestdrale.github.io/catesdrale.pdf[Version pdf des instructions]
 
-Voir document https://catestdrale.github.io/chateauCarte.pdf[PDF Harnais]
+* Harnais https://catestdrale.github.io/chateauCarte.pdf[PDF] ou https://catestdrale.github.io/chateauCarte.xlsx[XLSX]
 
