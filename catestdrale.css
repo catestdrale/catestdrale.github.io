@@ -1,0 +1,23 @@
+@import "asciidoctor.css"; /* Default asciidoc style framework - important */
+
+table.licence {border:none}
+table.licence tr:first-child td, table.mission tr:last-child td  {border:none}
+
+.exampleblock > .content {
+    background-color: #2b3e50;
+    color: white;
+}
+
+/* table of Contents sidebar */
+#toctitle {
+  font-weight: normal;
+  color: white;
+}
+
+#toc.toc2{
+  background-color:#2b3e50;
+}
+
+#toc a {
+  color: #ebebeb;
+}
