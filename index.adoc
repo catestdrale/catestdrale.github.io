@@ -172,3 +172,4 @@ Qu’est ce qui a le plus de valeur ?
 
 * Harnais https://catestdrale.github.io/chateauCarte.pdf[PDF] ou https://catestdrale.github.io/chateauCarte.xlsx[XLSX] ou https://catestdrale.github.io/chateauCarte.ods[ODS]
 
+* Groupe de discussion: https://groups.google.com/forum/#!forum/catestdrale[Google groups caTesTdrale]
