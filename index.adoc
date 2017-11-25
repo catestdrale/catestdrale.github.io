@@ -1,11 +1,14 @@
 
 = caTesTdrale
 :toc: left
+:imagesdir: ./images
 
 ====
 Atelier de sensibilisation et de réflexion sur l'apport des Test Unitaires Automatisés
 ====
 
+
+image::AgileGrenoble2017.png[alt=Château de carte,width=400,align=center]
 
 [.licence,cols="2,10"]
 |====
@@ -14,6 +17,7 @@ est mis à disposition selon les termes de la +
 https://creativecommons.org/licenses/by-sa/4.0/[licence Creative Commons Attribution +
 Partage dans les Mêmes Conditions 4.0 International].
 |====
+
 
 == Pitch
 
