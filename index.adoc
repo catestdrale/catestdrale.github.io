@@ -2,6 +2,7 @@
 = caTesTdrale
 :toc: left
 :imagesdir: ./images
+:docinfo: shared,private-head
 
 ====
 Atelier de sensibilisation et de réflexion sur l'apport des Test Unitaires Automatisés
