@@ -121,19 +121,22 @@ On peut opter pour deux formats différents:
 
 . Séparer les équipes avec certains faisant des tests et d'autres pas. La séparation peut être selon le volontariat où e fonction des tables où ce sont placés les gens.
 . Dérouler l'exercice pour tout le monde sans test puis rejouer l'exercice avec les tests.
-Il est intéressant de noter la hauteur obtenue à chaque itération pour pouvoir comparer les résultats entre les deux approches.
+Il est intéressant de donner une note à chaque itération pour pouvoir comparer les résultats entre les deux approches.
+Au choix:
+* 1 point pour 2 cartes à l'étage 1, 10 points pour 2 cartes à l'étage 2, ..., un château de 3 étages vaut 123.
+* La hauteur du château
 
 
 Distribuer le matériel si ce n'est pas déjà fait et déclencher le chronomètre pour une itération de 2 minutes.
 
 A la fin de l’itération, faire un rapide tour de l’avancement de chaque équipe.
 
-Faire au moins 5 itérations. Il est probable que les équipes sans tests jettent l'éponge avant cela.
+Faire au moins 4 itérations. Il est probable que les équipes sans tests jettent l'éponge avant cela.
 
 On peut continuer "pour le fun" en proposant aux équipes sans test de commencer à les mettre en oeuvre ou on peut les faire rejoindre une équipe faisant des tests.
 La compétition continue alors entre les équipes.
 
-Pour appuyer la prise de consiscience des avantages des tests automatisés, on peut proposer de faire un refactoring sur notre château:
+Pour appuyer la prise de conscience des avantages des tests automatisés, on peut proposer de faire un refactoring sur notre château:
 
 . retourner les cartes formant les plateaux (aucune modification des tests nécessaire).
 
