@@ -1,11 +1,15 @@
 
 = caTesTdrale
 :toc: left
+:imagesdir: ./images
+:docinfo: shared,private-head
 
 ====
 Atelier de sensibilisation et de réflexion sur l'apport des Test Unitaires Automatisés
 ====
 
+
+image::AgileGrenoble2017.png[alt=Château de carte,width=400,align=center]
 
 [.licence,cols="2,10"]
 |====
@@ -14,6 +18,7 @@ est mis à disposition selon les termes de la +
 https://creativecommons.org/licenses/by-sa/4.0/[licence Creative Commons Attribution +
 Partage dans les Mêmes Conditions 4.0 International].
 |====
+
 
 == Pitch
 
@@ -86,7 +91,7 @@ _h_ = Hauteur du château de cartes
 | Nb cartes | 7 | 15 | 26 | 40 | 57 | 77 | 100 | 126 | 155 | 187 | 222
 | Nb paquets de cartes (54) | 1 | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 3 | 4 | 5
 | Nb Harnais | 3 | 6 | 10 | 15 | 21 | 28 | 36 | 45 | 55 | 66 | 78
-| Nb feuilles de harnais | 1 | 1 | 1 | 2 | 2 | 2 | 3 | 4 | 4 | 5 | 6
+| Nb feuilles de harnais | 1 | 1 | 1 | 2 | 3 | 3 | 4 | 5 | 6 | 7 | 8
 |====
 
 Nb cartes = (3 _h_²+_h_ )/2
@@ -166,5 +171,6 @@ Qu’est ce qui a le plus de valeur ?
 
 * https://catestdrale.github.io/catestdrale.pdf[Version pdf des instructions]
 
-* Harnais https://catestdrale.github.io/chateauCarte.pdf[PDF] ou https://catestdrale.github.io/chateauCarte.xlsx[XLSX]
+* Harnais https://catestdrale.github.io/chateauCarte.pdf[PDF] ou https://catestdrale.github.io/chateauCarte.xlsx[XLSX] ou https://catestdrale.github.io/chateauCarte.ods[ODS]
 
+* Groupe de discussion: https://groups.google.com/forum/#!forum/catestdrale[Google groups caTesTdrale]
