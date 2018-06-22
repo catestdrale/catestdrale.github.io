@@ -34,7 +34,7 @@ Partage dans les Mêmes Conditions 4.0 International].
 
 == Objectif
 
-L'atelier vise à sensibiliser sur l'intérêt d'investir dans la mise en place de tests unitaires automatisés. 
+L'atelier vise à sensibiliser sur l'intérêt d'investir dans la mise en place de tests unitaires automatisés.
 
 Il peut-être utilisé, de manière plus général, pour montrer l'importance d'investir dans de la qualité.
 
@@ -51,7 +51,7 @@ Pour l’animateur
 
 === Salle
 
-Des tables pour construire les châteaux. 
+Des tables pour construire les châteaux.
 Il faut qu’elles soient stables et de préférence, qu'elles ne soient pas en contact des tables d’une autre équipe.
 
 Prévoir 2 à 3 personnes par table.
@@ -59,11 +59,11 @@ Prévoir 2 à 3 personnes par table.
 === Préparation avant l’atelier
 
 Imprimer la page https://catestdrale.github.io/chateauCarte.pdf[ChateauCarte.pdf] sans mise à l'échelle et sans toucher aux marges.
-Vérifier que les "fentes" (traits en noir) fassent bien la largeur d'une carte.
+Vérifier que les "fentes" (traits en pointillés noirs) fassent bien la largeur d'une carte.
 
 Faire autant de copies que nécessaire (cf. "<<ref-calcul>>)
 
-[NOTE] 
+[NOTE]
 Pour gagner du temps, on peut inciser les fentes avec un cutter au préalable.
 
 
@@ -102,8 +102,8 @@ Nb harnais=( _h_²+_h_ )/2
 
 === Discours d'introduction
 
-Le développement informatique est un assemblage de code écrit, d'assemblage de librairie et de communication avec d'autres application tout en utilisant diverses techologies. 
-La moindre erreur lors de la construction de cet ensemblage complexe et c'est le bug. 
+Le développement informatique est un assemblage de code écrit, d'assemblage de librairie et de communication avec d'autres application tout en utilisant diverses techologies.
+La moindre erreur lors de la construction de cet ensemblage complexe et c'est le bug.
 Les applications sont des immenses châteaux de cartes et c'est ce que l'on se propose de construire.
 
 Pour cela, on va expérimenter deux approches.
@@ -120,13 +120,13 @@ Montrer ce que l’on appelle un test (un harnais) et faire une démo de sa mis 
 On peut opter pour deux formats différents:
 
 . Séparer les équipes avec certains faisant des tests et d'autres pas. La séparation peut être selon le volontariat où e fonction des tables où ce sont placés les gens.
-. Dérouler l'exercice pour tout le monde sans test puis rejouer l'exercice avec les tests. 
+. Dérouler l'exercice pour tout le monde sans test puis rejouer l'exercice avec les tests.
 Il est intéressant de noter la hauteur obtenue à chaque itération pour pouvoir comparer les résultats entre les deux approches.
 
 
-Distribuer le matériel si ce n'est pas déjà fait et déclencher le chronomètre pour une itération d'1 minute.
+Distribuer le matériel si ce n'est pas déjà fait et déclencher le chronomètre pour une itération de 2 minutes.
 
-A la fin de l’itération, faire un rapide tour de l’avancement de chaque équipe. 
+A la fin de l’itération, faire un rapide tour de l’avancement de chaque équipe.
 
 Faire au moins 5 itérations. Il est probable que les équipes sans tests jettent l'éponge avant cela.
 
@@ -147,21 +147,21 @@ A l'issue de l'atelier, il est bien de prendre le temps de faire un débriefing.
 
 On peut commencer par demander la manière dont les personnes ont vécues l'atelier et faire le parallèle avec ce qu'ils vivent dans leur travail.
 
-L'idée générale qui se dégage est la notion d'investissement que représentent les tests. 
+L'idée générale qui se dégage est la notion d'investissement que représentent les tests.
 Voici quelques éléments sur lesquels on peut discuter:
 
-- Sans tests, on va (beaucoup) plus vite au début mais cela ne dure pas. 
+- Sans tests, on va (beaucoup) plus vite au début mais cela ne dure pas.
 On peut faire le lien avec la courbe décrite en extreme programming et qui cherche à avoir un coût des évolutions constant dans le temps là où il est généralement exponentiel.
 
 - Quel risque prend t-on sur l'avenir du code à développer sans test ?
 
-- L’absence de tests donne un sentiment de challenge. 
+- L’absence de tests donne un sentiment de challenge.
 Il est nécessaire d'être extrêment concentré pour mettre au point une solution.
 Avec les tests le travail est plus simple et plus rébarbatif.
 Cela peut donner l'impression d'avancer moins vite mais le progrès est constant.
 
-- Imaginons que l'on nous fournisse un château de cartes de 3 étages déjà fait et sur lequel on nous demande d'ajouter un étage. 
-Préféreriez vous partir d’un château de 3 étages sans tests (partir d’un code sans tests) ou uniquement des tests coupés/pliés (les tests sans le code) ? 
+- Imaginons que l'on nous fournisse un château de cartes de 3 étages déjà fait et sur lequel on nous demande d'ajouter un étage.
+Préféreriez vous partir d’un château de 3 étages sans tests (partir d’un code sans tests) ou uniquement des tests coupés/pliés (les tests sans le code) ?
 Qu’est ce qui a le plus de valeur ?
 
 - En cas de destruction du château (restructuration), combien de temps cela prend il à le reconstruire avec/sans tests ?
